@@ -1,0 +1,4 @@
+interface:
+  display_name: "Founder Inbox"
+  short_description: "Run the Gmail-to-Notion founder inbox triage workflow."
+  default_prompt: "Run founder-inbox and triage my connected inboxes into Notion."

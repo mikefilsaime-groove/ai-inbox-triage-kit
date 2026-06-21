@@ -1,0 +1,4 @@
+interface:
+  display_name: "Notion Inbox Responder"
+  short_description: "Process Notion inbox replies."
+  default_prompt: "Run notion-inbox-responder and process my Notion inbox comments."

@@ -1,0 +1,14 @@
+{
+  "name": "ai-inbox-triage-kit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A sanitized AI inbox triage kit for Gmail, Notion, Codex, and Claude Code.",
+  "type": "commonjs",
+  "scripts": {
+    "wizard": "node installer/install-wizard.js",
+    "demo": "node installer/install-wizard.js --demo",
+    "check": "node -c installer/install-wizard.js"
+  },
+  "license": "UNLICENSED"
+}
+

@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+node_modules/
+generated/
+*.log
+.DS_Store
+.gmail-tokens/
+.notion-cache/
+

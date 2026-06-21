@@ -1,0 +1,111 @@
+[
+  {
+    "Category": "Noise Notifications",
+    "Active": true,
+    "When To Use": "Automated alerts, app notifications, newsletters, social updates, routine status messages, generic confirmations, and low-risk vendor chatter.",
+    "Default Handling": "Archive silently unless a concrete payment failure, deadline, account suspension, legal risk, or direct human ask is present.",
+    "Inbox Outcome": "Archive",
+    "Executive Visibility": "No notification",
+    "Notify Method": ["Not Applicable"],
+    "Delegate Name(s)": "",
+    "Delegate Email(s)": "",
+    "Examples / Notes": "This is the default noise suppression rule."
+  },
+  {
+    "Category": "VIP / Key People",
+    "Active": true,
+    "When To Use": "Direct non-newsletter email from key people, partners, investors, family, board members, or strategic contacts.",
+    "Default Handling": "Create a decision inbox item. Notify only when configured for that person or urgency level.",
+    "Inbox Outcome": "Needs Executive - Keep Active",
+    "Executive Visibility": "Decision queue",
+    "Notify Method": ["Notion Inbox"],
+    "Delegate Name(s)": "Executive",
+    "Delegate Email(s)": "",
+    "Examples / Notes": "Exclude newsletters, launch broadcasts, and unsubscribe-link marketing emails from the same person."
+  },
+  {
+    "Category": "Investor / Strategic Opportunity",
+    "Active": true,
+    "When To Use": "Serious investor, acquisition, partnership, JV, podcast, speaking, or strategic opportunity email.",
+    "Default Handling": "Create a decision inbox item with context, parties, exact ask, and suggested response.",
+    "Inbox Outcome": "Needs Executive - Keep Active",
+    "Executive Visibility": "Decision queue",
+    "Notify Method": ["Notion Inbox"],
+    "Delegate Name(s)": "Executive",
+    "Delegate Email(s)": "",
+    "Examples / Notes": "Promote credible opportunities even if cold, but archive generic promotion pitches."
+  },
+  {
+    "Category": "Company Finance Delegate",
+    "Active": true,
+    "When To Use": "Company billing, AP, vendor invoices, merchant accounts, payment processor issues, business SaaS, payroll, contractor money requests, or company insurance.",
+    "Default Handling": "Draft-forward or forward to the finance delegate with a concise action note, then archive when safe.",
+    "Inbox Outcome": "Delegate then Archive",
+    "Executive Visibility": "Digest unless urgent",
+    "Notify Method": ["Not Applicable"],
+    "Delegate Name(s)": "Finance Delegate",
+    "Delegate Email(s)": "finance@example.com",
+    "Examples / Notes": "Do not route personal or household billing here."
+  },
+  {
+    "Category": "Personal Admin Finance",
+    "Active": true,
+    "When To Use": "Personal, household, family, vehicle, home, personal subscription, personal finance, personal insurance, or personal investment billing.",
+    "Default Handling": "Draft-forward or forward to the personal admin, then archive when safe.",
+    "Inbox Outcome": "Delegate then Archive",
+    "Executive Visibility": "No notification",
+    "Notify Method": ["Not Applicable"],
+    "Delegate Name(s)": "Personal Admin",
+    "Delegate Email(s)": "personal-admin@example.com",
+    "Examples / Notes": "If personal vs company is unclear, create a review item."
+  },
+  {
+    "Category": "Domain Expiration Risk",
+    "Active": true,
+    "When To Use": "Domain expiration, renewal failure, registrar payment failure, redemption warning, or risk of losing an important domain.",
+    "Default Handling": "Create a decision inbox item and notify the executive immediately.",
+    "Inbox Outcome": "Needs Executive - Keep Active",
+    "Executive Visibility": "Immediate notification",
+    "Notify Method": ["Notion Inbox", "Text", "Chat"],
+    "Delegate Name(s)": "Executive",
+    "Delegate Email(s)": "",
+    "Examples / Notes": "Domain loss risk beats ordinary billing routing."
+  },
+  {
+    "Category": "Legal / Compliance Deadline",
+    "Active": true,
+    "When To Use": "Legal notices, compliance filings, registered agent notices, contract deadlines, tax deadlines, lawsuits, regulatory notices, or entity status issues.",
+    "Default Handling": "Create a decision item. Delegate to the responsible operations/legal person if configured. Escalate when the deadline is near.",
+    "Inbox Outcome": "Delegate + CC Executive then Archive",
+    "Executive Visibility": "Decision queue",
+    "Notify Method": ["Notion Inbox"],
+    "Delegate Name(s)": "Operations Delegate",
+    "Delegate Email(s)": "ops@example.com",
+    "Examples / Notes": "Never bury real legal deadlines as noise."
+  },
+  {
+    "Category": "Medical / Travel Critical",
+    "Active": true,
+    "When To Use": "Doctor appointments, medical instructions, travel disruption, cancellation, urgent schedule changes, or time-sensitive logistics.",
+    "Default Handling": "Create a decision item and notify when time-sensitive.",
+    "Inbox Outcome": "Needs Executive - Keep Active",
+    "Executive Visibility": "Immediate notification",
+    "Notify Method": ["Notion Inbox", "Text"],
+    "Delegate Name(s)": "Executive",
+    "Delegate Email(s)": "",
+    "Examples / Notes": "Routine travel marketing is noise; actual trip disruption is signal."
+  },
+  {
+    "Category": "Needs New Rule",
+    "Active": true,
+    "When To Use": "The message may be important but does not clearly match an active rule.",
+    "Default Handling": "Create a review item asking how this should be handled in the future.",
+    "Inbox Outcome": "No Action / Review",
+    "Executive Visibility": "Review queue",
+    "Notify Method": ["Notion Inbox"],
+    "Delegate Name(s)": "",
+    "Delegate Email(s)": "",
+    "Examples / Notes": "Use sparingly. Do not use for obvious noise."
+  }
+]
+
