@@ -74,3 +74,9 @@ npm run demo
 ## Privacy Promise
 
 The system should never ship with real founder names, live rules, OAuth tokens, inbox addresses, phone numbers, family members, employees, clients, or vendors. Treat those as local-only configuration gathered during install.
+
+## License And Credit
+
+MIT open source. Created by Mike Filsaime.
+
+If this kit helps you build a cleaner inbox system, attribution back to Mike Filsaime is appreciated.

@@ -9,6 +9,5 @@
     "demo": "node installer/install-wizard.js --demo",
     "check": "node -c installer/install-wizard.js"
   },
-  "license": "UNLICENSED"
+  "license": "MIT"
 }
-
