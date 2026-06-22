@@ -18,7 +18,7 @@ No private rules, names, companies, or real account details are included in this
 
 - A Notion **Rules** database that acts like a live policy table.
 - A Notion **Decision Inbox** database for items that need the executive.
-- Starter rule templates for noise suppression, VIP contacts, finance routing, legal/compliance, domain renewals, and opportunities.
+- Starter rule templates for noise suppression, VIP contacts, finance routing, legal/compliance, domain renewals, feedback portal replies, and opportunities.
 - Portable Codex and Claude Code skill folders.
 - A questionnaire-driven installer scaffold that generates a local config from the user's answers.
 

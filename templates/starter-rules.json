@@ -84,6 +84,18 @@
     "Examples / Notes": "Never bury real legal deadlines as noise."
   },
   {
+    "Category": "Feedback Portal Reply",
+    "Active": true,
+    "When To Use": "Routine bug reports, improvement ideas, or feature requests where that is the whole ask.",
+    "Default Handling": "Reply with the configured feedback portal URL, explain that requests are reviewed regularly and may be handled by the team or agents, then archive when safe.",
+    "Inbox Outcome": "Log then Archive",
+    "Executive Visibility": "No notification",
+    "Notify Method": ["Don't Notify"],
+    "Delegate Name(s)": "",
+    "Delegate Email(s)": "",
+    "Examples / Notes": "Replace https://feedback.example.com with your real feedback portal. Do not use this for critical outages, access problems, broken checkout/payment flows, refund/payment issues, angry customers, legal/public threats, or customer-specific support problems."
+  },
+  {
     "Category": "Medical / Travel Critical",
     "Active": true,
     "When To Use": "Doctor appointments, medical instructions, travel disruption, cancellation, urgent schedule changes, or time-sensitive logistics.",
@@ -108,4 +120,3 @@
     "Examples / Notes": "Use sparingly. Do not use for obvious noise."
   }
 ]
-

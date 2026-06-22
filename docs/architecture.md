@@ -18,10 +18,11 @@ flowchart LR
 2. Scan configured Gmail inboxes.
 3. Classify each thread.
 4. Archive clear noise.
-5. Create or update Notion decision items for true signal.
-6. Notify only when the rule calls for it.
-7. Process Notion comments/status changes.
-8. Draft, delegate, archive, or close as instructed.
+5. Reply with the configured feedback portal for routine bug reports and feature requests when that is the whole ask.
+6. Create or update Notion decision items for true signal.
+7. Notify only when the rule calls for it.
+8. Process Notion comments/status changes.
+9. Draft, delegate, archive, or close as instructed.
 
 ## Two-Speed Automation
 
@@ -48,4 +49,3 @@ CEO@COMPANY-BRAVO
 ```
 
 Use uppercase letter-only item codes so they are easy to dictate and search.
-

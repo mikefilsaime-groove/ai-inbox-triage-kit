@@ -45,6 +45,8 @@ Start from:
 
 Then edit the rules in Notion. The Notion database is intended to be the live source of truth.
 
+Replace placeholder delegate addresses and URLs, including the feedback portal URL in the `Feedback Portal Reply` rule.
+
 ## Step 4: Install Skills
 
 For Codex, copy or link:
